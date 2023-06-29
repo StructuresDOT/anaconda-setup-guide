@@ -75,10 +75,18 @@ Anaconda installation and setup guides for consultants working with DOT
 <br />
 <br />
 
-11.	In the prompt window type the following command to create a new anaconda environment (know more about anaconda environments and how to manage them here: https://conda.io/projects/conda/en/latest/user-guide/concepts/environments.html , https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment):
+11.	In the prompt window type the following command to create a new anaconda environment.
+
 * ~ conda create --name FDOTCalcs --clone base.
 
 ![Clone base](./imgs/Picture11.png)
+
+
+
+ * know more about anaconda environments and how to manage them here: 
+ * https://conda.io/projects/conda/en/latest/user-guide/concepts/environments.html
+ * https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment:
+
 
 <br />
 <br />
@@ -91,28 +99,32 @@ Anaconda installation and setup guides for consultants working with DOT
 <br />
 <br />
 
-13.	Assuming the default installation path for Anaconda was accepted (step #7), place the “requirements.txt” file in the “C:\Users\Username” path, where Username is the username under which the Anaconda software was installed.
+13. On this page, click on the code drop down menu and select "Download ZIP" option, extract the zip file in your prefered location.
+
+![Pip install](./imgs/Picture13a.png)
 
 <br />
 <br />
 
-14.	Run the following command to install the required packages for FDOT calculation sheets in this newly created environment from the “requirements.txt” file:
+14.	Assuming the default installation path for Anaconda was accepted (step #7), place the “requirements.txt” file from the extracted folder in the “C:\Users\Username” path, where Username is the username under which the Anaconda software was installed.
+
+<br />
+<br />
+
+15.	Run the following command to install the required packages for FDOT calculation sheets in this newly created environment from the “requirements.txt” file:
 * ~ pip install -r requirements.txt
-<br />
-<br />
 
 ![Pip install](./imgs/Picture13.png)
 
 <br />
 <br />
 
-15.	After installation is successful, launch Jupyter lab program by typing the following command, make your browser Google Chrome as the default program when launching Jupyter Lab for the first time:
+16.	After installation is successful, launch Jupyter lab program by typing the following command, make your browser Google Chrome as the default program when launching Jupyter Lab for the first time:
 * ~ jupyter lab
-<br />
-<br />
 
 ![Jupyter lab](./imgs/Picture14.png)
 
 <br />
 <br />
+
 ![Set chrome default browser](./imgs/Picture15.png)
