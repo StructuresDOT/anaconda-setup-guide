@@ -100,6 +100,7 @@ Anaconda installation and setup guides for consultants working with DOT
 * ~ pip install -r requirements.txt
 <br />
 <br />
+
 ![Pip install](./imgs/Picture13.png)
 
 <br />
@@ -109,7 +110,9 @@ Anaconda installation and setup guides for consultants working with DOT
 * ~ jupyter lab
 <br />
 <br />
-![Jupyter lab](./imgs/Picture14.png) 
+
+![Jupyter lab](./imgs/Picture14.png)
+
 <br />
 <br />
 ![Set chrome default browser](./imgs/Picture15.png)

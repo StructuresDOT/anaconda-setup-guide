@@ -1,0 +1,6 @@
+handcalcs
+ipyevents
+ipyflex
+ipylab
+ipywidgets
+forallpeople
