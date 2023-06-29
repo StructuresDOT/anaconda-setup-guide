@@ -4,3 +4,4 @@ ipyflex
 ipylab
 ipywidgets
 forallpeople
+pint
